@@ -94,18 +94,23 @@ p {
 
 .categories {
   margin: 70px 0;
-  display: flex;
   text-align: center;
 }
 
-.categories .col-4 {
+.categories .col-5 {
   flex-basis: 15%;
-  min-width: 250px;
+  min-width: 200px;
   margin-bottom: 30px;
+  transition: transform 0.5s;
+  cursor: pointer;
 }
 
-.categories .col-4 img {
+.categories .col-5 img {
   width: 100%;
+}
+
+.categories .col-5:hover {
+  transform: translateY(-5px);
 }
 
 .small-container {
@@ -124,6 +129,7 @@ p {
   min-width: 200px;
   margin-bottom: 50px;
   transition: transform 0.5s;
+  cursor: pointer;
 }
 
 .col-4 img {
@@ -219,17 +225,17 @@ small {
   margin: 100px auto;
 }
 
-.col-5 {
+.brands .col-5 {
   width: 150px;
 }
 
-.col-5 img {
+.brands .col-5 img {
   width: 100%;
   cursor: pointer;
   filter: grayscale(100%);
 }
 
-.col-5 img:hover {
+.brands .col-5 img:hover {
   filter: grayscale(0);
 }
 
