@@ -94,16 +94,17 @@ p {
 
 .categories {
   margin: 70px 0;
+  display: flex;
   text-align: center;
 }
 
-.col-3 {
-  flex-basis: 30px;
+.categories .col-4 {
+  flex-basis: 15%;
   min-width: 250px;
   margin-bottom: 30px;
 }
 
-.col-3 img {
+.categories .col-4 img {
   width: 100%;
 }
 
